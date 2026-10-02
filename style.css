@@ -1,0 +1,97 @@
+body {
+    background: #f4f7fb;
+    color: #172033;
+    font-family: Inter,system-ui,-apple-system,"Segoe UI",sans-serif
+}
+
+.app-nav {
+    background: #111827
+}
+
+.card {
+    border-radius: 16px
+}
+
+.metric-card {
+    padding: 1.15rem;
+    height: 100%
+}
+
+.metric-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: #eef4ff;
+    font-size: 1.2rem
+}
+
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: 750
+}
+
+.health-bar {
+    height: 7px
+}
+
+.status-pill {
+    font-size: .74rem;
+    font-weight: 700;
+    padding: .38rem .6rem;
+    border-radius: 999px
+}
+
+.status-running {
+    background: #dcfce7;
+    color: #166534
+}
+
+.status-warning {
+    background: #fef3c7;
+    color: #92400e
+}
+
+.status-maintenance {
+    background: #fee2e2;
+    color: #991b1b
+}
+
+.status-idle {
+    background: #e5e7eb;
+    color: #374151
+}
+
+.risk-high {
+    color: #b91c1c;
+    font-weight: 700
+}
+
+.risk-medium {
+    color: #b45309;
+    font-weight: 700
+}
+
+.risk-low {
+    color: #15803d;
+    font-weight: 700
+}
+
+.alert-item {
+    padding: 1rem;
+    border-bottom: 1px solid #edf0f4
+}
+
+.chart-box {
+    height: 310px
+}
+
+.table>:not(caption)>*>* {
+    padding: .9rem .75rem
+}
+
+@media(max-width:768px) {
+    .chart-box {
+        height: 260px
+    }}
